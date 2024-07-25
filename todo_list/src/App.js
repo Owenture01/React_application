@@ -79,7 +79,7 @@ function App() {
     <div>
       <div>
         <Input type="text" value = {text} onChange = { onTextChange }/>
-        <Button onClick={addTask}> Add task</Button>
+        <Button onClick={addTask}> Click here to add task</Button>
       </div>
 
       <TodoList todoList = {todoList} removeTodo = {removeTodo} />
